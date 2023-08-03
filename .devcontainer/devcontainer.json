@@ -19,5 +19,8 @@
         "codespace.md"
       ]
     }
-  }
+  },
+
+  // Command to run after the Codespace is created
+  "postCreateCommand": "echo '# Writing code upon codespace creation!' >> codespace.md"
 }
